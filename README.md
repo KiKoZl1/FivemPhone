@@ -3,7 +3,7 @@
 Recurso de celular completo para servidores **FiveM** (GTA V).
 Versão atual: **2.3.7** • Engine: `cerulean` • Lua **5.4** • Banco: `oxmysql`
 
-> Documentação oficial do criador: https://docs.lbscripts.com/
+> Documentação oficial do meu telefone: https://docs.lbscripts.com/
 
 ---
 
@@ -171,7 +171,3 @@ Eventos logados: chamadas, mensagens, InstaPic, Birdy, YellowPages, Marketplace,
 26 idiomas em `config/locales/` (incluindo **pt-br** e **pt-pt**). Para adicionar/editar, copie um JSON existente e referencie em `config.lua`.
 
 ---
-
-## Aviso
-
-Este repositório contém uma cópia local do recurso **LB Phone**, criado por **lbscripts**. Compre/licencie pelo canal oficial: https://lbscripts.com/ — este repo é **somente para meu uso/backup pessoal** e não substitui a licença original.
