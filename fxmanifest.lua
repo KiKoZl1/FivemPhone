@@ -1,0 +1,56 @@
+fx_version "cerulean"
+game "gta5"
+lua54 "yes"
+
+version "2.3.7"
+
+shared_scripts {
+    "config/*.lua",
+    "shared/**/*.lua"
+}
+
+client_scripts {
+    "lib/client/**/*.lua",
+    "client/**/*.lua"
+}
+
+server_scripts {
+    "@oxmysql/lib/MySQL.lua",
+    "lib/server/**/*.lua",
+    "server/**/*.lua"
+}
+
+files {
+    "ui/dist/**/*",
+    "ui/components.js",
+    "config/**/*"
+}
+
+ui_page "ui/dist/index.html"
+
+dependency "oxmysql"
+
+escrow_ignore {
+    "config/**/*",
+
+    "client/apps/framework/**/*.lua",
+    "server/apps/framework/**/*.lua",
+    "server/apps/framework/**/*.js",
+
+    "shared/*.lua",
+
+    "client/custom/**/*.lua",
+    "server/custom/**/*.lua",
+
+    "client/misc/debug.lua",
+    "server/misc/debug.lua",
+    "server/misc/debug.js",
+
+    "server/misc/functions.lua",
+    "server/misc/databaseChecker/*.lua",
+    "server/misc/databaseChecker/*.js",
+    "server/apiKeys.lua",
+    "types.lua",
+    "client/apps/default/weather.lua",
+    "lib/**/*"
+}
